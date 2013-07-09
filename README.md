@@ -5,7 +5,8 @@ The official [lethemfind.us](http://lethemfind.us/community/) URL Shortener
 
 License
 -------
-Original by briancray [briancray/PHP-URL-Shortener](https://github.com/briancray/PHP-URL-Shortener), tweaked by Miku and 1nsignia
+Original by briancray [briancray/PHP-URL-Shortener](https://github.com/briancray/PHP-URL-Shortener), tweaked by Miku and 1nsignia.
+
 Licensed under [GNU GPL 2.0](http://www.gnu.org/licenses/gpl-2.0.html)
 
 Benefits
