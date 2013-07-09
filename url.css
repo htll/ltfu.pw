@@ -1,0 +1,58 @@
+html, body {height: 100%;}
+
+#main {
+
+margin: 0px auto;
+width: 75%;
+padding-top: 25px;
+padding-bottom: 10px;
+overflow:auto;
+
+}
+
+	
+
+header {
+font-size: 1.2em;	
+
+color: #00BF32;
+
+font-family: 'Courier New',Courier,Freemono,'Nimbus Mono L',monospace;
+
+margin: 0px auto;
+width: 75%;
+
+
+padding-top: 25px;
+}
+
+
+body {
+text-align: center;
+
+background-color: black;
+color: white;
+
+
+
+}
+
+a {
+color: #248F40;		
+	}
+	
+a:hover {
+
+color: #38DF64;
+}
+
+footer {
+margin: 0px auto;
+width: 75%;
+
+padding-top: 25px;
+font-size: 0.75em;
+padding-bottom: 25px;
+
+}
+
