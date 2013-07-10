@@ -1,59 +1,110 @@
-body {
-	margin-left: 200px;
-	margin-bottom: 75px;
-	background: #122;
-	color: #aab;
+* { margin:0;padding:0; } 
 
-	font-family: Arial;
+html, body { height: 100%; }
+
+#wrap { min-height: 100%; }
+
+#main {
+	overflow: auto;
+	padding-bottom: 70px;
+}
+
+#footer {
+	position: relative;
+	margin-top: -70px;
+	height: 70px;
+	clear:both;
+} 
+
+/** Opera fix **/
+body:before {
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top:- 32767px;
+}
+
+header {
+	font-family: 'Lobster', cursive;  
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 15px;
+	font-size: 1.5em;
+}
+
+body {
+	background-color: #31809F;
+	font-size: 1.2em;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+	
+#shorturl {
+	display: none;
 }
 
 form {
-	width: 400px;
-	text-align: right;
-	margin-bottom: 10px;
+	padding-top: 100px;
+}
+	
+#longurl2 {
+	width: 450px;
+	margin: 30px;
+	height: 35px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	display:none;
+}
+
+
+#footer {
+	background-color: white;
+	padding-top: 13px;
+}
+
+#contact {
+	font-size: 0.9em;
 }
 
 a {
-	color: #fff;
-	text-decoration: none;
+	color: #184D68;
 }
 
-footer {
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	padding: 10px 200px;
-	background: #122;
-	border-top: 2px solid #233;
-	text-align: right;
+a:hover {
+	color: #D55121;
 }
 
-#left {
-	float: left;
+input#longurl {
+	width: 300px;
+	height: 25px;
 }
 
-input {
-	background: #122;
-	border: 2px solid #233;
-	color: #aab;
+input{
+	background-color: white;
+	color: black;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
-input[type="submit"] {
-	width: 65px;
+input#Shorten {
+	width: 450px;
+	height:30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 105px;
+	border-radius: 10px;
+	border: 1px solid #184D68;
+	background-color: rgba(49, 128, 159, 0.9);
+	color:white;
+	font-size: 1em;
+	font-weight: bold;
 }
 
-input[type="submit"]:active {
-	border: 2px solid #122;
-	background: #122!important;
-}
-
-input[type="submit"]:hover {
-	background: #233;
-}
-
-#shorturl {
-	border: 2px solid #233;
-	display: none;
-	padding: 3px;
+input#Shorten:hover {
+	background-color: #FB9C6C;
 }
