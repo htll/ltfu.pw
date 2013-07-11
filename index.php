@@ -4,8 +4,7 @@
 	<title>LTFU URL Shortener</title>
 	<meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow">
-   	<link href="url.css" rel="stylesheet" type="text/css" />		
-   	<link href="footer.css" rel="stylesheet" type="text/css" />		 
+   	<link href="screen.css" rel="stylesheet" type="text/css" />
 	<script src="jquery.min.js" type="text/javascript"></script>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Dosis:600' rel='stylesheet' type='text/css'>
@@ -27,7 +26,7 @@
 	<a href="https://github.com/lethemfindus/ltfu.pw"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
 	<div id="wrap">
 		<header>
-		<img src="http://i.imgur.com/ZZBsesk.png" alt="LTFU: URL Shortener" />
+		<img src="banner.png" alt="LTFU: URL Shortener" />
 		</header>
 		<div id="main">
 			<div id="form">
