@@ -1,11 +1,11 @@
 ltfu.pw
 =======
 
-The official [lethemfind.us](http://lethemfind.us/community/) URL Shortener
+The official [hightechlowlife.eu](https://hightechlowlife.eu) URL Shortener
 
 License
 -------
-Original by briancray [briancray/PHP-URL-Shortener](https://github.com/briancray/PHP-URL-Shortener), tweaked by Miku and 1nsignia.
+Original by briancray [briancray/PHP-URL-Shortener](https://github.com/briancray/PHP-URL-Shortener), tweaked by Miku and 1nsignia for use on lethemfind.us and revised for use on hightechlowlife.eu by Suruga Devil
 
 Licensed under [GNU GPL 2.0](http://www.gnu.org/licenses/gpl-2.0.html)
 
